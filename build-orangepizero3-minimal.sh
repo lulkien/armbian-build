@@ -23,8 +23,6 @@ echo "Packages: dropbear, iwd, vim-tiny, htop, curl, wget, git, python3, nftable
 echo "DTB: sun50i-h616-orangepi-zero3.dtb (change BOOT_FDT_FILE in board config for other H618 boards)"
 echo "============================================"
 
-cd /home/kiewn/Projects/armbian/build
-
 ./compile.sh \
     BOARD="$BOARD" \
     BRANCH="$BRANCH" \
